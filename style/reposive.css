@@ -1,0 +1,11 @@
+/* mobile device media screen max 576px */
+@media screen and (max-width: 600px) {
+  .ham-burger {
+    display: block;
+    color: #ffffff;
+  }
+
+  .nav-menu .navlinks {
+    display: none;
+  }
+}

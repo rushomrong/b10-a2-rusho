@@ -23,13 +23,13 @@ display-flex {
   margin: 57px auto auto auto;
 }
 
-nav {
+.nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav ul {
+.nav-menu .navlinks {
   list-style: none;
   display: flex;
   border: 1px solid #323232;
@@ -40,7 +40,7 @@ nav ul {
   align-items: center;
 }
 
-nav ul li {
+.navlinks a {
   color: #ffffff;
   margin-right: 47px;
   font-family: "Inter";
@@ -57,7 +57,7 @@ nav ul li {
   font-style: italic;
 }
 
-.active {
+.navlinks .active {
   width: 101px;
   height: 45px;
   background-color: #e6533c;
@@ -67,6 +67,6 @@ nav ul li {
   margin-left: 2px;
 }
 
-nav ul li #navicon {
+.ham-burger {
   display: none;
 }
