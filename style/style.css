@@ -99,7 +99,7 @@
 .banner-section {
   /* border: 1px solid red; */
   width: 69%;
-  height: 715px;
+  height: 44.688rem;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -138,9 +138,13 @@
   position: relative;
 }
 
+.right-section img {
+  margin-right: 4.063rem;
+}
+
 .top-label {
-  width: 193px;
-  height: 98px;
+  width: 12.063rem;
+  height: 6.125rem;
   position: absolute;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -169,8 +173,8 @@
 }
 
 .bottom-label {
-  width: 193px;
-  height: 98px;
+  width: 12.063rem;
+  height: 6.125rem;
   position: absolute;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
