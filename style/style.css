@@ -10,3 +10,39 @@
   box-sizing: border-box;
   background-color: #181818;
 }
+
+display-flex {
+  display: flex;
+}
+
+/* navbar style */
+.navbar {
+  width: 69%;
+  height: 46px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.navbar .logo-text {
+  font-family: "Inter", sans-serif;
+  color: #e6533c;
+  font-size: 2.25rem;
+  font-weight: 800;
+  font-style: italic;
+}
