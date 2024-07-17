@@ -18,9 +18,9 @@ display-flex {
 /* navbar style */
 .navbar {
   width: 69%;
-  height: 46px;
-  border: 1px solid red;
-  margin: 0 auto;
+  height: 80px;
+  /* border: 1px solid red; */
+  margin: 57px auto auto auto;
 }
 
 nav {
@@ -32,11 +32,21 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
+  border: 1px solid #323232;
+  border-radius: 39px;
+  padding: 5px;
+  width: 450px;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul li {
   color: #ffffff;
-  margin-right: 20px;
+  margin-right: 47px;
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 auto;
 }
 
 .navbar .logo-text {
@@ -45,4 +55,18 @@ nav ul li {
   font-size: 2.25rem;
   font-weight: 800;
   font-style: italic;
+}
+
+.active {
+  width: 101px;
+  height: 45px;
+  background-color: #e6533c;
+  padding: 10px;
+  border-radius: 26px;
+  text-align: center;
+  margin-left: 2px;
+}
+
+nav ul li #navicon {
+  display: none;
 }
