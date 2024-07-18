@@ -104,6 +104,7 @@
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  /* background: rgb(17, 17, 17) rgba(119, 119, 119, 0); */
 }
 
 .left-text {

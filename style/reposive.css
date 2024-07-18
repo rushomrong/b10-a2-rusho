@@ -1,5 +1,5 @@
 /* mobile device media screen max 576px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .ham-burger {
     display: block;
     color: #ffffff;
@@ -7,6 +7,78 @@
 
   .nav-menu .navlinks {
     display: none;
+  }
+
+  .navbar {
+    width: 82%;
+  }
+
+  .left-text .left-title,
+  #textstyle {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-top: 3.188rem;
+    width: 17rem;
+  }
+
+  .left-text {
+    width: auto;
+  }
+
+  .banner-section {
+    width: 22rem;
+    height: 58.068rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .button-primary,
+  .button-secondary {
+    padding: 15px;
+  }
+
+  .top-label {
+    top: 90%;
+    margin-left: 54%;
+    width: 45%;
+    height: 15%;
+  }
+
+  .top-label .label-title {
+    font-size: 1.55rem;
+    font-weight: 900;
+  }
+
+  .top-label .label-desc {
+    font-size: 0.73rem;
+    font-weight: 400;
+  }
+
+  .right-section img {
+    margin-right: auto;
+  }
+
+  .bottom-label {
+    top: 60%;
+    margin-left: 5%;
+    width: 51%;
+    height: 13%;
+  }
+
+  .bottom-label .circle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .bottom-label .left-label-title {
+    font-size: 1.19rem;
+    margin-left: 2.75rem;
+  }
+
+  .bottom-label .left-label-desc {
+    font-size: 0.85rem;
+    margin-left: 2.75rem;
   }
 }
 
