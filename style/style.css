@@ -212,3 +212,22 @@
   background: transparent;
   margin-left: 3.688rem;
 }
+
+/* habits section styles */
+.your-habits {
+  width: 69%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6.25rem;
+}
+
+.image-section {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.625rem;
+}
