@@ -292,3 +292,58 @@ span.img-desc {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.65);
 }
+
+/* run an extra mile style */
+.extra-mile {
+  width: 69%;
+  height: 371px;
+  background: #222222;
+  /* border: 1px solid red; */
+  border-radius: 16px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.extra-mile .extra-left-content {
+  width: 413px;
+  height: 285px;
+  background: transparent;
+  margin-left: 3%;
+}
+
+.extra-title {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  background: transparent;
+}
+
+.extra-desc {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 32px;
+  background: transparent;
+}
+
+.extra-right-img {
+  position: relative;
+  overflow: hidden;
+  width: 367px;
+  height: 314px;
+  border-radius: 16px;
+}
+
+.extra-right-img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  top: 84%;
+  left: 8%;
+  transform: translate(-50%, -50%) scale(2.6);
+}

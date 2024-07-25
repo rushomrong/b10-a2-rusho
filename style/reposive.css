@@ -97,6 +97,7 @@
   .your-habits {
     /* flex-direction: column; */
     margin-top: 540px;
+    margin-bottom: 566px;
   }
 
   .image-section {
@@ -108,6 +109,36 @@
   .time,
   .practice {
     margin-bottom: 20px;
+  }
+
+  /* extra mile */
+
+  .extra-mile {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .extra-mile .extra-left-content {
+    width: 100%;
+  }
+
+  .extra-title {
+    font-size: 2rem;
+  }
+  .extra-desc {
+    width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .extra-right-img {
+    width: 100%;
+  }
+  .extra-right-img img {
+    width: 17.938rem;
+    position: absolute;
+    top: 11%;
+    left: -43%;
+    transform: scale(1.9);
   }
 }
 
