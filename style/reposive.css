@@ -82,6 +82,23 @@
   }
 
   /* end of top sections styles */
+
+  /* your habits section style */
+  .your-habits {
+    /* flex-direction: column; */
+    margin-top: 540px;
+  }
+
+  .image-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movement,
+  .time,
+  .practice {
+    margin-bottom: 20px;
+  }
 }
 
 /* large screen device */
