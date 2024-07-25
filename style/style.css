@@ -213,6 +213,14 @@
   margin-left: 3.688rem;
 }
 
+span.playbtn {
+  color: #ffffff;
+  float: right;
+  margin-left: -18%;
+  margin-top: 70%;
+  position: absolute;
+}
+
 /* habits section styles */
 .your-habits {
   width: 69%;

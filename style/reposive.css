@@ -81,6 +81,16 @@
     margin-left: 2.75rem;
   }
 
+  span.playbtn {
+    color: #ffffff;
+    float: right;
+    margin-left: 14%;
+    margin-top: 79%;
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+  }
+
   /* end of top sections styles */
 
   /* your habits section style */
