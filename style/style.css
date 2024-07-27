@@ -421,6 +421,7 @@ span.img-desc {
 .bmi-cal-chart-table {
   flex-direction: column;
   background: transparent;
+  align-self: self-start;
 }
 
 .chart-title {
@@ -434,7 +435,7 @@ span.img-desc {
 
 table {
   /* width: 50%; */
-  margin: 20px auto;
+  /* margin: 20px auto; */
   border-collapse: collapse;
   text-align: left;
   border: 1px solid rgba(255, 255, 255, 0.1);
