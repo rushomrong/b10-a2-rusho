@@ -347,3 +347,51 @@ span.img-desc {
   left: 8%;
   transform: translate(-50%, -50%) scale(2.6);
 }
+
+/* BMI top content */
+
+.bmi-top-content {
+  width: 69%;
+  height: 292px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  text-align: left;
+}
+
+.bmi-content {
+  width: 635px;
+  height: 145px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bmi-content .bmi-top-title {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+
+.bmi-content .bmi-top-desc {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.button-primary-2 {
+  padding: 20px 45px 20px 45px;
+  border-radius: 2rem;
+  background-color: #e6533c;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 1.75rem;
+  margin-right: 0.875rem;
+}
