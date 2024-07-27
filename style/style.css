@@ -411,14 +411,16 @@ span.img-desc {
 
 .bmi-chart-content {
   width: 69%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
+  background: transparent;
 }
 
 .bmi-cal-chart-table {
   flex-direction: column;
+  background: transparent;
 }
 
 .chart-title {
@@ -427,6 +429,7 @@ span.img-desc {
   font-weight: 900;
   color: #ffffff;
   margin-bottom: 52px;
+  background: transparent;
 }
 
 table {
@@ -435,12 +438,14 @@ table {
   border-collapse: collapse;
   text-align: left;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #222222;
 }
 
 th,
 td {
   border: 1px solid rgba(255, 255, 255, 0.1); /* Border color */
   padding: 10px;
+  background: #222222;
 }
 
 /* td font color */
@@ -456,6 +461,11 @@ th {
   font-size: 1rem;
   font-weight: 500;
   color: #ffffff;
+  background: #222222;
+}
+
+.bmi-form {
+  background: transparent;
 }
 
 .bmi-title {
@@ -464,6 +474,7 @@ th {
   font-weight: 900;
   color: #ffffff;
   margin-bottom: 14px;
+  background: transparent;
 }
 
 .bmi-desc {
@@ -472,6 +483,7 @@ th {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 34px;
+  background: transparent;
 }
 
 /* form container */
@@ -488,6 +500,7 @@ th {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 557px;
+  background: transparent;
 }
 
 .form-container input,

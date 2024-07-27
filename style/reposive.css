@@ -162,6 +162,42 @@
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
   }
+
+  /* bmi chart conent */
+  .bmi-content-full {
+    height: fit-content;
+  }
+
+  .bmi-chart-content {
+    flex-direction: column;
+  }
+
+  .bmi-cal-chart-table {
+    flex-direction: column;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .form-container #btn-mbl {
+    width: 14rem;
+  }
+
+  .chart-title,
+  .bmi-title {
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 23px;
+  }
+
+  .bmi-form {
+    width: 90%;
+  }
+
+  table {
+    margin-bottom: 42px;
+  }
 }
 
 /* large screen device */
