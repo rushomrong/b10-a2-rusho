@@ -170,6 +170,7 @@
 
   .bmi-chart-content {
     flex-direction: column;
+    align-items: self-start;
   }
 
   .bmi-cal-chart-table {
@@ -191,9 +192,9 @@
     margin-bottom: 23px;
   }
 
-  .bmi-form {
+  /* .bmi-form {
     width: 90%;
-  }
+  } */
 
   table {
     margin-bottom: 42px;
