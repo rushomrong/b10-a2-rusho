@@ -147,6 +147,20 @@
     padding: 15px;
     width: 100%;
   }
+
+  .bmi-content {
+    width: 100%;
+  }
+
+  .bmi-content .bmi-top-title {
+    font-size: 2rem;
+    align-items: flex-start;
+  }
+
+  .bmi-top-desc {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
 }
 
 /* large screen device */
