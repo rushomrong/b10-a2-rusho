@@ -214,6 +214,40 @@
     grid-template-columns: repeat(1, 1fr);
     height: fit-content;
   }
+
+  .trainer-title {
+    margin-top: -25%;
+  }
+
+  /* footer section responsive */
+  .footer {
+    margin-top: 577px;
+  }
+
+  .footer-container {
+    height: fit-content;
+  }
+  .footer-main {
+    height: fit-content;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+  }
+
+  .footer-nav h3 {
+    margin-top: 20px;
+    font-size: 1.875rem;
+  }
+
+  .footer-bottom {
+    margin-top: 72px;
+  }
+
+  .footer-bottom p {
+    text-align: left;
+    font-size: 1.1rem;
+  }
 }
 
 /* large screen device */
