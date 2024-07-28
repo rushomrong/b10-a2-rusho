@@ -183,6 +183,7 @@
 
   .form-container #btn-mbl {
     width: 14rem;
+    margin-bottom: 54px;
   }
 
   .chart-title,
@@ -198,6 +199,20 @@
 
   table {
     margin-bottom: 42px;
+  }
+
+  .team-title {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .team-container {
+    margin-top: 655px;
+  }
+
+  .team-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    height: fit-content;
   }
 }
 
