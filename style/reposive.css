@@ -215,8 +215,12 @@
     height: fit-content;
   }
 
+  .trainer img {
+    margin: 20px 0;
+  }
+
   .trainer-title {
-    margin-top: -25%;
+    margin-top: -28%;
   }
 
   /* footer section responsive */
