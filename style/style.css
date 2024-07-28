@@ -515,7 +515,7 @@ th {
   background-color: #444; /* Input background color */
   border: none;
   border-radius: 5px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.3);
 }
 .form-container #factor {
   width: 100%;
