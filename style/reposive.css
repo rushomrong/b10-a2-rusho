@@ -219,6 +219,15 @@
     height: 36rem;
   }
 
+  .trainer {
+    margin-top: -10px;
+  }
+
+  .trainer::before {
+    top: 20px;
+    height: 93%;
+  }
+
   .trainer img {
     margin: 20px 0;
     height: 200px;
@@ -226,6 +235,7 @@
 
   .trainer-title {
     margin-top: -28%;
+    background: transparent;
   }
 
   /* trainer image display only 4 */

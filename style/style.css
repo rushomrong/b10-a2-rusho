@@ -593,6 +593,8 @@ th {
   color: rgba(255, 255, 255, 0.5);
   margin-top: 14px;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .trainer-title {
@@ -602,6 +604,9 @@ th {
   color: #ffffff;
   margin-top: -20%;
   margin-left: 5%;
+  position: relative;
+  z-index: 2;
+  background: transparent;
 }
 
 span.sub-title {
