@@ -717,3 +717,17 @@ span.sub-title {
   background: none;
   margin-top: 36px;
 }
+
+.footer-bottom .fa.fa-heart-o {
+  background: transparent;
+  color: #ff3131;
+}
+
+.footer-bottom a {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ff3131;
+  background: transparent;
+  text-decoration: none;
+}
