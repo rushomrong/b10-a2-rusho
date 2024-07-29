@@ -207,7 +207,8 @@
   }
 
   .team-container {
-    margin-top: 380px;
+    /* margin-top: 380px; with 5 img */
+    margin-top: 270px;
   }
 
   .team-grid-container {
@@ -216,7 +217,8 @@
   }
 
   .meet-team {
-    height: 36rem;
+    /* height: 36rem;  with 5 img*/
+    height: 30rem;
   }
 
   .trainer {
@@ -242,6 +244,19 @@
   .trainer:nth-child(1) {
     display: none; /* first trainer hide */
   }
+
+  #trainer5 {
+    order: 2;
+  } /*Cody Fisher*/
+  #trainer3 {
+    order: 3;
+  } /*Darrell Steward*/
+  #trainer4 {
+    display: none;
+  } /*Dianne Russell*/
+  #trainer6 {
+    order: 4;
+  } /*Theresa Webb*/
 
   /* footer section responsive */
   .footer {
