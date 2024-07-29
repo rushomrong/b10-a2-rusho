@@ -207,7 +207,7 @@
   }
 
   .team-container {
-    margin-top: 655px;
+    margin-top: 380px;
   }
 
   .team-grid-container {
@@ -215,12 +215,22 @@
     height: fit-content;
   }
 
+  .meet-team {
+    height: 36rem;
+  }
+
   .trainer img {
     margin: 20px 0;
+    height: 200px;
   }
 
   .trainer-title {
     margin-top: -28%;
+  }
+
+  /* trainer image display only 4 */
+  .trainer:nth-child(1) {
+    display: none; /* first trainer hide */
   }
 
   /* footer section responsive */
