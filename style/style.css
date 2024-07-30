@@ -40,6 +40,18 @@
   margin-top: 1.75rem;
 }
 
+.pricing-one {
+  background-color: #e6533c;
+}
+
+.pricing-two {
+  background-color: #141b22;
+}
+
+.pricing-three {
+  background-color: #222222;
+}
+
 /* navbar style */
 .navbar {
   width: 69%;
@@ -731,3 +743,174 @@ span.sub-title {
   background: transparent;
   text-decoration: none;
 }
+
+/* Challenge section price plan style */
+
+.pricing-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.plan-container {
+  width: 69%;
+  height: 45rem;
+  /* border: 1px solid #ddd; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-title {
+  background-color: rgb(247 171 0 / 15%);
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 28px;
+  display: inline-block;
+}
+
+.top-title .h3-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  display: inline-block;
+  background: transparent;
+}
+
+.h2-title {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  line-height: 70px;
+  font-weight: 800;
+  padding-bottom: 25px;
+  padding-top: 18px;
+}
+
+.pricing-box-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price-plan {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  padding: 15px;
+}
+
+.pricing-title-box {
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px 0px rgb(255 255 255 / 10%);
+  text-align: left;
+}
+
+.pricing-title-box .h3-title {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  background: transparent;
+}
+
+.pricing-title-box .h2-title {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+  background: transparent;
+}
+
+.pricing-title-box .h2-title span {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  background: transparent;
+}
+
+/* pricing box content - pricing one*/
+
+.pricing-content-box {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: transparent;
+}
+
+.pricing-point ul li #check {
+  color: #e6533c;
+  background: transparent;
+}
+
+.pricing-content-main {
+  justify-content: left;
+  align-items: center;
+  background: transparent;
+}
+
+.pricing-point ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  text-decoration: none;
+  background: transparent;
+}
+
+.pricing-point {
+  background: transparent;
+}
+
+.pricing-point ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  text-align: left;
+  background: transparent;
+}
+
+.pricing-point ul li p {
+  font-family: "Inter" "sans-serif";
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-left: 10px;
+  color: #ffffff;
+  background: transparent;
+}
+
+.pricing-content-box .join-btn {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #fd3d0c;
+  color: #ffffff !important;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.join-btn {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  text-transform: uppercase;
+  height: 60px;
+  background-color: #fd3d0c;
+  display: inline-block;
+  padding: 18px 45px;
+  border-radius: 10px;
+  transition: all ease 0.5s;
+}
+
+/* pricing box content - pricing two*/
