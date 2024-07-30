@@ -879,7 +879,7 @@ span.sub-title {
 }
 
 .pricing-point ul li p {
-  font-family: "Inter" "sans-serif";
+  font-family: "Inter", sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   margin-bottom: 0;
