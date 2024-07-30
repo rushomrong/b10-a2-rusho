@@ -287,6 +287,33 @@
     text-align: left;
     font-size: 1.1rem;
   }
+
+  /* price part */
+  .pricing-box-main {
+    flex-direction: column;
+  }
+
+  .plan-container {
+    height: fit-content;
+  }
+
+  .h2-title {
+    font-size: 29px;
+    line-height: 45px;
+  }
+
+  .top-title .h3-subtitle {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .price-plan {
+    width: 100%;
+  }
+
+  .pricing-table {
+    padding-bottom: 0;
+  }
 }
 
 /* large screen device */

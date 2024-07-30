@@ -913,4 +913,7 @@ span.sub-title {
   transition: all ease 0.5s;
 }
 
-/* pricing box content - pricing two*/
+a.join-btn:hover {
+  background: #e6533c;
+  border: 2px solid #fff;
+}
