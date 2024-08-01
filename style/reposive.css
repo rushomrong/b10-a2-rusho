@@ -134,7 +134,7 @@
   .extra-right-img {
     width: 100%;
     height: 10.639rem;
-    margin-top: 31px;
+    margin-top: 39px;
   }
   .extra-right-img img {
     width: 17.938rem;
@@ -265,6 +265,11 @@
 
   .footer-container {
     height: fit-content;
+  }
+
+  .form-container input,
+  .form-container select {
+    width: calc(52% - 10px);
   }
   .footer-main {
     height: fit-content;
