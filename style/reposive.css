@@ -41,7 +41,7 @@
   .top-label {
     top: 90%;
     margin-left: 54%;
-    width: 45%;
+    width: 46%;
     height: 15%;
   }
 
@@ -268,6 +268,7 @@
   }
   .footer-main {
     height: fit-content;
+    flex-direction: column;
   }
 
   .footer-nav {
@@ -313,6 +314,159 @@
 
   .pricing-table {
     padding-bottom: 0;
+  }
+}
+
+/* mobile devices with max-width less than 576px */
+@media screen and (max-width: 400px) {
+  .banner-section {
+    padding: 0px 12px;
+    max-width: 100%;
+  }
+
+  .extra-mile,
+  .your-habits,
+  .bmi-content,
+  .pricing-table,
+  .team-container,
+  .footer-container {
+    /* padding: 0 10px; */
+    max-width: 100%;
+  }
+
+  .left-desc,
+  .extra-desc {
+    margin-bottom: 15px;
+  }
+
+  .bottom-label .left-label-desc {
+    font-size: 0.8rem;
+    margin-left: 2.75rem;
+  }
+
+  .habit-content .content-title {
+    font-size: 2rem;
+  }
+
+  .join-btn {
+    font-size: 0.875rem;
+    padding: 15px;
+  }
+
+  .pricing-title-box {
+    padding: 15px;
+  }
+
+  .button-primary,
+  .button-secondary {
+    width: 46%;
+    margin: 5px 0;
+    font-size: 0.79rem;
+  }
+
+  .button-primary-2,
+  .pricing-box-main .plan-container {
+    /* width: 100%; */
+    margin: 5px 0;
+  }
+
+  .top-label {
+    top: 90%;
+    margin-left: 52%;
+    width: 48%;
+    height: 16%;
+  }
+
+  .bottom-label {
+    top: 61%;
+    margin-left: 4%;
+    width: 53%;
+    height: 15%;
+  }
+
+  span.playbtn {
+    margin-top: 80%;
+  }
+
+  .form-container #btn-mbl {
+    width: 100%;
+  }
+
+  .trainer-title,
+  .sub-title {
+    margin-top: -69px;
+  }
+  .right-section img,
+  .extra-mile .extra-right-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .navbar,
+  .footer-main,
+  .footer-nav,
+  .footer-bottom {
+    padding: 0;
+  }
+
+  .team-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-brand h1 {
+    font-size: 3.375rem;
+  }
+
+  .trainer::before {
+    height: 92%;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .extra-mile {
+    padding: 15px;
+  }
+
+  .form-container input,
+  .form-container select {
+    width: 100%;
+  }
+
+  .trainer img {
+    margin: 20px 0;
+    height: 171px;
+  }
+
+  .extra-right-img {
+    margin-top: 50px;
+  }
+
+  .banner-section {
+    padding: 0px 30px;
+  }
+
+  .button-primary,
+  .button-secondary {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .top-label {
+    top: 113%;
+    margin-left: 54%;
+    width: 50%;
+    height: 21%;
+  }
+
+  .bottom-label {
+    top: 65%;
+    margin-left: 2%;
+    width: 66%;
+    height: 16%;
+  }
+
+  .team-container {
+    margin-top: 210px;
   }
 }
 
