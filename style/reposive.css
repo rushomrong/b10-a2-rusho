@@ -422,7 +422,7 @@
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .extra-mile {
     padding: 15px;
   }
